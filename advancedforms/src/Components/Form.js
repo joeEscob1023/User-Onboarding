@@ -18,7 +18,9 @@ const Form = (props) => {
     <form onSubmit={onSubmit}>
       <div>
         <h2>Add a User</h2>
-        <button disabled={disabled}>Submit</button>
+        <button id="button" disabled={disabled}>
+          Submit
+        </button>
       </div>
       <div>{errors.name}</div>
       <div>{errors.email}</div>
